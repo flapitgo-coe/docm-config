@@ -4,3 +4,38 @@ server:
   port: 8000
 message:
   greeting: Hello from the configuration - new version!
+---
+spring:  
+  profiles: development
+server:  
+  port: 8080
+message:
+  greeting: Hello from the configuration - This is DEV Env't!  
+---
+spring:  
+  profiles: integration
+server:  
+  port: 8080
+message:
+  greeting: Hello from the configuration - This is INT Env't!
+---
+spring:  
+  profiles: test
+server:  
+  port: 8080
+message:
+  greeting: Hello from the configuration - This is TEST Env't!
+---
+spring:  
+  profiles: stage
+server:  
+  port: 8080
+message:
+  greeting: Hello from the configuration - This is STAGE Env't!
+---
+spring:  
+  profiles: prod
+server:  
+  port: 8080
+message:
+  greeting: Hello from the configuration - This is PROD Env't!  
