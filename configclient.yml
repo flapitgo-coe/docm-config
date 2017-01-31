@@ -1,5 +1,5 @@
 configuration:  
-  projectName: configclient
+  projectName: docmconfig
 server:
   port: 8000
 message:
