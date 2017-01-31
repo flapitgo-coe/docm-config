@@ -11,6 +11,8 @@ server:
   port: 8080
 message:
   greeting: Hello from the configuration - This is DEV Env't!  
+s3:
+  accesskey: ${S3_ACCESS_KEY}  
 ---
 spring:  
   profiles: integration
