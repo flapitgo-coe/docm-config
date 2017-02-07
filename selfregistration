@@ -1,0 +1,20 @@
+configuration:  
+  projectName: selfregistration
+---
+spring:  
+  profiles: development
+server:  
+  port: 8080
+application:
+  personInfoRestServiceUri : https://gsdev.doveltech.com/gs/ws/rs4userProfile/userProfile/
+  personsSearchRestServiceUri : "search"
+  personsListRestServiceUri : "list/%s"
+---
+spring:  
+  profiles: localhost
+server:  
+  port: 8080
+application:
+  personInfoRestServiceUri : http://10.1.8.12:8888/gs/ws/rs4UserProfile/userProfile/
+  personsSearchRestServiceUri : "search"
+  personsListRestServiceUri : "list/%s"
