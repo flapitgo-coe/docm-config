@@ -7,6 +7,7 @@ server:
   port: 8080
 application:
   personInfoRestServiceUri : https://gsdev.doveltech.com/gs/ws/rs4userProfile/userProfile/
+  checkPersonInGMMRestServiceUri : "checkPerson/%s/%s/%s/%s"
   personsSearchRestServiceUri : "search"
   personsListRestServiceUri : "list/%s"
 ---
@@ -18,5 +19,6 @@ message:
   greeting: Hello from the configuration - This is localhost Env't NEW VALUE!  
 application:
   personInfoRestServiceUri : http://10.1.8.12:8888/gs/ws/rs4UserProfile/userProfile/
+  checkPersonInGMMRestServiceUri : "checkPerson/%s/%s/%s/%s"
   personsSearchRestServiceUri : "search"
   personsListRestServiceUri : "list/%s"
