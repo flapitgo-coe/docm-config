@@ -16,7 +16,7 @@ spring:
 server:  
   port: 8080
 message:
-  greeting: Hello from the configuration - This is localhost Env't NEW VALUE!  
+  greeting: Hello from the configuration - This is localhost Env't Changed Value!  
 application:
   personInfoRestServiceUri : http://10.1.8.12:8888/gs/ws/rs4UserProfile/userProfile/
   checkPersonInGMMRestServiceUri : "checkPerson/%s/%s/%s/%s"
