@@ -6,7 +6,6 @@ spring:
 server:  
   port: 8080
 application:
-  personInfoRestServiceUri : https://gsdev.doveltech.com/gs/ws/rs4userProfile/userProfile/
   checkPersonInGMMRestServiceUri : "checkPerson/%s/%s/%s/%s"
   searchPersonsRestServiceUri : "search"
   personsListRestServiceUri : "list/%s"
@@ -18,7 +17,6 @@ server:
 message:
   greeting: Hello from the configuration - This is localhost Env't Changed Value!  
 application:
-  personInfoRestServiceUri : http://10.1.8.12:8888/gs/ws/rs4UserProfile/userProfile/
   checkPersonInGMMRestServiceUri : "checkPerson/%s/%s/%s/%s"
   searchPersonsRestServiceUri : "search"
   personsListRestServiceUri : "list/%s"
